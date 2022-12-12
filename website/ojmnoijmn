@@ -1,0 +1,1 @@
+docker run --rm -it -p 5100:80 -p 2019:443 -e ASPNETCORE_URLS="https://+:443;http://+:80" -e ASPNETCORE_HTTPS_PORT=2019 -e ASPNETCORE_Kestrel__Certificates__Default__Password="password" -e ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx -v /c/Users/Katuta/%USERPROFILE%/.aspnet/https:/https/ results-net:1.0.1

@@ -1,0 +1,82 @@
+GLOBAL ERRORS <-----------------------------
+ID's
+    - "global"
+Code's
+    - error_unkown
+    - username_no_exist
+    - error_db_noconnection
+    - userpage_unauthorized
+
+LOGIN/REGISTER FORM <--------------------------------
+ID's
+    - "global"
+    - "login-username"
+    - "login-password"
+    - "register-username"
+    - "register-password"
+    - "register-confirm-password"
+Code's
+    - username_incorrect_length
+    - username_format_mismatch
+    - password_incorrect_length
+    - password_format_mismatch
+    - confirm_password_mismatch
+    - error_unkown
+
+ADD CAREER <-----------------------------------
+ID's
+    - "add-career-name"
+Code's
+    - career_name_incorrect_length
+    - career_name_format_mismatch
+    - career_id_no_exist
+
+ADD SEASON <-----------------------------------
+ID'S
+    - "add-season-name"
+    - "add-season-team-name"
+Code's
+    - career_name_incorrect_length
+    - career_name_format_mismatch
+    - team_name_incorrect_length
+    - team_name_format_mismatch
+    - career_id_no_exist
+    - season_id_no_exist
+
+ADD COMPETITION <------------------------------
+ID's 
+    - "add-comp-name"
+    - "add-comp-format-name"
+    - "add-comp-startat
+Codes's
+    - competition_name_incorrect_length
+    - competition_name_format_mismatch
+    - competition_format_no_exist
+    - start_at_no_exist
+    - competition_startat_invalid
+    - season_id_no_exist
+
+ADD COMPETITION FORMATS <------------------------
+ID'S
+    format_data_name
+    format_[pos]_[out]
+Code'S
+    - name_incorrect_length
+    - name_format_mismatch
+    - global_no_formats
+    - pos_incorrect_length
+    - out_incorrect_length
+    - pos_format_mismatch
+    - out_format_mismatch
+    - format_name_already_exists
+
+ADD RESULT <--------------------------
+ID'S
+    - result-goals-for
+    - result-goals-againts
+    - result-opp-team
+Code'S
+    - result_score_invalid
+    - result_oppteam_empty
+    - result_oppteam_incorrect_length
+    - result_id_no_exist

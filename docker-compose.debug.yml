@@ -1,0 +1,27 @@
+version: '3.9'
+
+services:
+  webapp:
+    image: results-net:2.0
+    ports:
+      - "10000:10000"
+      - "7000:7000"
+    environment:
+      - ASPNETCORE_ENVIROMENT=Development
+      - ASPNETCORE_URLS=https://+:7000;http://+:10000
+      - ASPNETCORE_HTTPS_PORT=7000
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=password
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+    volumes:
+    - //c/Users/Katuta/%USERPROFILE%/.aspnet/https:/https:ro
+  database:
+    image: mysql:8
+    restart: on-failure
+    ports:
+      - "4040:3306"
+    environment:
+      - MYSQl_ROOT_PASSWORD=password
+    volumes:
+      - type: bind
+        source: ./datadir
+        target: /var/lib/mysql
