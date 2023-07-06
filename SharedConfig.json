@@ -1,0 +1,45 @@
+{
+    "username_maxlength": 32,
+    "username_minlength": 2,
+    "username_expression": "^[a-zA-Z0-9_]+$",
+    "username_format_message": "Username can only contain letters, numbers and underscore",
+
+    "password_maxlength": 32,
+    "password_minlength": 8,
+    "password_expression": "^[\\x00-\\x7F]+$",
+    "password_format_message": "Password may only contain english keyboard characters",
+
+    "career_name_minlength": 1,
+    "career_name_maxlength": 32,
+    "career_name_expression": null,
+    "career_name_format_message": "",
+
+    "season_name_minlength": 1,
+    "season_name_maxlength": 32,
+    "season_name_expression": null,
+    "season_name_format_message": "",
+    "season_teamname_minlength": 1,
+    "season_teamname_maxlength": 32,
+    "season_teamname_expression": null,
+    "season_teamname_format_message": "",
+
+    "competition_format_name_minlength": 1,
+    "competition_format_name_maxlength": 32,
+    "competition_format_name_expression": null,
+    "competition_format_name_format_message": "",
+    "competition_format_position_minlength": 1,
+    "competition_format_position_maxlength": 255,
+    "competition_format_position_expression": "(^\\d+(?=(,\\d+)*$))|(^\\d+-\\d+$)|(^\\*$)",
+    "competition_format_position_format_message": "Invalid position format",
+    "competition_format_output_minlength": 1,
+    "competition_format_output_maxlength": 32,
+    "competition_format_output_expression": null,
+    "competition_format_output_format_message": "Invalid output format",
+
+    "competition_name_minlength": 1,
+    "competition_name_maxlength": 32,
+    "competition_name_expression": null,
+    "competition_name_format_message": "",
+    
+    "token_expires": 90
+}
