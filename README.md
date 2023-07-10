@@ -1,6 +1,6 @@
 # Preview
 This is a website for storing results from football games either from real football games or games such as FIFA.  
-An instance of this website is currently running live [here](https://resultsnet.online).
+An instance of this website is currently running live https://resultsnet.online.
 
 To see an example of a profile I have used personally see my [profile](https://resultsnet.online/results/user/KTBM).  
 This example contains football seasons both from real life teams I have played in within Wellington as well as teams I have used in the video game FIFA. This profile cannot be edited or changed as you wont be logged in as the user KTBM.
