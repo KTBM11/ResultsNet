@@ -15,6 +15,7 @@ ResultsNet uses .NET 6.0 for the backend API with the front end developed using 
 * How to map objects to a database using entity framework
 * How to execute queries with stored procedures
 * How to keep users logged in from session to session using JSON web tokens.
+* How to turn a .NET application into a docker image.
 # How to use ResultsNet
 ### Create an account
 Register with a username and password combination and use this to login.
