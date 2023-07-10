@@ -41,7 +41,7 @@ Results represents the result of the game. The home team name and score is displ
 * Enter the opposition team name in the wider input.
 * Enter goals that each team scored in the smaller inputs.
 * If the game is a replay (such as an FA Cup replay) then tick the checkbox on the right hand side.
-* Click the plus button.
+* Click the plus button to append the result.
 * The results order can be adjusted by dragging and dropping the result to the desired position.
 ### Create a custom competition format
 * With a career and season currently selected click the "+ Add Competition" button.
